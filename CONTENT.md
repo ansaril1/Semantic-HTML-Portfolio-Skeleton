@@ -36,7 +36,6 @@ You can find me on:
 
 - Instagram
 - TikTok
-- Snapchat
 - Facebook
 - Handshake
 - Linkedin
