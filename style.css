@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 :root {
     --background-color: #fffbf0;
     --surface-color: #ffffff;
     --primary-color: #b90000;
-    --accent-color: #c47a44;
+    --accent-color: #000000;
     --muted-color: #666666;
     --border-color: #d6d0c4;
     --shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
@@ -16,7 +18,7 @@ body {
     margin: 0;
     background-color: var(--background-color);
     color: var(--text-color);
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.6;
 }
 
@@ -84,4 +86,84 @@ section {
     border: 1px solid var(--border-color);
     border-radius: 12px;
     box-shadow: var(--shadow);
+}
+
+h2 {
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 0.5rem;
+}
+
+p {
+    color: var(--text-color);
+    font-size: 1.05rem;
+    margin-bottom: 1rem;
+}
+
+article {
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    background-color: var(--background-color);
+    border-left: 5px solid var(--accent-color);
+    border-radius: 8px;
+}
+
+h3 {
+    color: var(--primary-color);
+    margin-top: 0;
+    font-size: 1.4rem;
+}
+
+a {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+a:hover {
+    color: var(--accent-color);
+}
+
+figure {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+figcaption {
+    color: var(--muted-color)
+    font-style: italic;
+    margin-top: 0.75rem;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--surface-color);
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-top: 4px solid var(--accent-color);
+}
+
+footer a {
+    color: var(--surface-color);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
+figure img {
+    transition: transform 0.3s ease;
+}
+
+figure img:hover {
+    transform: scale(1.02);
 }
