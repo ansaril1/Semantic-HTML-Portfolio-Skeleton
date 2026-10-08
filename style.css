@@ -76,3 +76,12 @@ main {
     margin: 2rem auto;
     padding: 0 2rem;
 }
+
+section {
+    background-color: var(--surface-color);
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+}
