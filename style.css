@@ -132,7 +132,7 @@ figure {
 }
 
 figcaption {
-    color: var(--muted-color)
+    color: var(--muted-color);
     font-style: italic;
     margin-top: 0.75rem;
 }
